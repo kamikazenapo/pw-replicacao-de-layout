@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+.text-header {
+    font-family: 'Galada', cursive;
+}
+
+.bg-header {
+    /*background-image: linear-gradient(to left top, #0c2461, #60a3bc);*/
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-mobile {
+    background-image: linear-gradient(to left top, #0c2461, #60a3bc);
+}

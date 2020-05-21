@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-title {
+    font-family: 'IBM Plex Sans', cursive;
+    font-size: 8rem;
+    color: #fff;
+}
+
+.text-subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.bg-title {
+    position: relative;
+    background: url('../img/banner.jpg') center center no-repeat;
+    background-size: 100%;
+}
+
+.bg-title:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.bg-title h1 {
+    position: relative;
+}
+
+.bg-title p {
+    position: relative;
+}
+
+.bg-contato {
+    background: url('../img/fale-conosco.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-footer {
+    padding: 20px 0;
+    background: #007bff;
+}
+
+.bg-nav {
+    background: #007bff;
+}
+
+.bg-nav .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.mt-n6 {
+    margin-top: -4rem;
+}
+
+.text-span {
+    z-index: 99;
+    position: absolute;
+}
+
+.news-item .news-img {
+    height: 190px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.news-item .news-title {
+    font-size: 1.75rem;
+}
+
+.news-item .news-text {
+    font-size: 0.95;
+}
+
+@media (max-width: 576px) {
+    .text-title {
+        font-family: 'IBM Plex Sans', cursive;
+        font-size: 4rem;
+        color: #fff;
+    }
+    .text-subtitle {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1rem;
+        color: #fff;
+    }
+    .bg-title {
+        background-image: linear-gradient(to bottom right, #192a56, #40739e);
+    }
+    .bg-contato {
+        background-image: linear-gradient(to bottom right, #006266, #12CBC4);
+    }
+}
+
+
+/* Dispositivos médios (tablets com 768px ou mais) */
+
+@media (max-width: 768px) {}
+
+
+/* Dispositivos large (desktops com 992px ou mais) */
+
+@media (max-width: 992px) {}
+
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+
+@media (max-width: 1200px) {}
